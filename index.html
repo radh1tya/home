@@ -1,44 +1,36 @@
-
-<?xml version="1.0" encoding="iso-8859-15"?> <!-- -*-html-helper-*- -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>alif.radhitya.org</title>
-<style type="text/css">
-
-.table { display: table; background-color: #e0e0e0; padding: 20px; border: 1px solid; text-align: center; margin: auto }
-.row { display: table-row }
-.field { display: table-cell; font-weight: bold; text-align: right; padding: 3px }
-.value { display: table-cell; text-align: left; padding: 3px }
-
-body { margin: 0; font-family: serif }
-
-#frame { margin: 0; top: 0; left: 0; width: 100%; height: 100%; position: fixed; display: table }
-#contents { margin: 0; display: table-cell; vertical-align: middle; text-align: center }
-
-</style>
+    <title>alif.radhitya.org</title>
+    <style type="text/css">
+        body { font-family: serif; text-align: center; background-color: #f0f0f0; margin: 20px; }
+        .container { display: flex; justify-content: center; align-items: center; max-width: 800px; margin: auto; }
+        .photo { flex: 1; padding: 10px; }
+        .photo img { max-width: 100%; height: auto; border-radius: 50%; }
+        .info { flex: 2; text-align: left; padding: 10px; }
+        .table { display: table; background-color: #e0e0e0; padding: 10px; }
+        .row { display: table-row; }
+        .field { display: table-cell; font-weight: bold; padding: 5px; text-align: right; }
+        .value { display: table-cell; padding: 5px; text-align: left; }
+    </style>
 </head>
-
 <body>
-
-<div id="frame">
-<div id="contents">
-
-<h1>alif.radhitya.org</h1>
-<p>Interest in Embedded Systems, C Programming, FreeBSD, and Linux</p>
-<div class="table">
-  <div class="row"><span class="field">Name:</span><span class="value">Alif Radhitya Wardana</span></div>
-  <div class="row"><span class="field">Current:</span><span class="value">Electrical Engineering Student at Universitas Negeri Surabaya</span></div>
-  <div class="row"><span class="field">Email:</span><span class="value"><code>alif@radhitya.org</code></span></div>
-  <div class="row"><span class="field">LinkedIn:</span><span class="value"><a href="https://www.linkedin.com/in/alifradhitya/">Alif Radhitya Wardana</a></span></div>
-  <div class="row"><span class="field">Github:</span><span class="value"><a href="https://github.com/radh1tya">radh1tya</a></span></div>
-
-</div>
-
-</div>
-</div>
-
+    <h1>alif.radhitya.org</h1>
+    <p>Interest in Embedded Systems, C Programming, FreeBSD, and Linux</p>
+    <div class="container">
+        <div class="photo">
+            <img src="/alif.jpg" alt="Foto Alif">
+        </div>
+        <div class="info">
+            <div class="table">
+                <div class="row"><span class="field">Name:</span><span class="value">Alif Radhitya Wardana</span></div>
+                <div class="row"><span class="field">Current:</span><span class="value">Electrical Engineering Student</span></div>
+                <div class="row"><span class="field">Email:</span><span class="value"><code>alif@radhitya.org</code></span></div>
+                <div class="row"><span class="field">LinkedIn:</span><span class="value"><a href="https://www.linkedin.com/in/alifradhitya/">Alif Radhitya Wardana</a></span></div>
+                <div class="row"><span class="field">Github:</span><span class="value"><a href="https://github.com/radh1tya">radh1tya</a></span></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
