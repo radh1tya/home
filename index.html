@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>alif.radhitya.org</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+    <title>Alif Radhitya Wardana</title>
     <style type="text/css">
-        body { font-family: serif; text-align: center; background-color: #f0f0f0; margin: 20px; }
-        .container { display: flex; justify-content: center; align-items: center; max-width: 800px; margin: auto; }
-        .photo { flex: 1; padding: 10px; }
-        .photo img { max-width: 100%; height: auto; border-radius: 50%; }
-        .info { flex: 2; text-align: left; padding: 10px; }
-        .table { display: table; background-color: #e0e0e0; padding: 10px; }
-        .row { display: table-row; }
-        .field { display: table-cell; font-weight: bold; padding: 5px; text-align: right; }
-        .value { display: table-cell; padding: 5px; text-align: left; }
+        body {
+            background: #FDF1E1;
+            font-family: Verdana, sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .feature {
+            display: flex; 
+            align-items: center;
+            max-width: 600px;
+            gap: 20px;
+        }
+        .feature img {
+            max-width: 220px;
+            height: auto;
+        }
+        a:link, a:visited, a:hover {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>alif.radhitya.org</h1>
-    <p>Interest in Embedded Systems, C Programming, FreeBSD, and Linux</p>
-    <div class="container">
-        <div class="photo">
-            <img src="/alif.jpg" alt="Foto Alif">
+    <div class="feature">
+        <div>
+            <img src="/alif.jpg" alt="Alif Radhitya Wardana">
         </div>
-        <div class="info">
-            <div class="table">
-                <div class="row"><span class="field">Name:</span><span class="value">Alif Radhitya Wardana</span></div>
-                <div class="row"><span class="field">Current:</span><span class="value">Electrical Engineering Student</span></div>
-                <div class="row"><span class="field">Email:</span><span class="value"><code>alif@radhitya.org</code></span></div>
-                <div class="row"><span class="field">LinkedIn:</span><span class="value"><a href="https://www.linkedin.com/in/alifradhitya/">Alif Radhitya Wardana</a></span></div>
-                <div class="row"><span class="field">Github:</span><span class="value"><a href="https://github.com/radh1tya">radh1tya</a></span></div>
-            </div>
+        <div>
+            <p>Alif Radhitya Wardana</p>
+            <p>Electrical Engineering Student</p>
+            <p>Universitas Negeri Surabaya</p>
+	    <p>Email: <a href="mailto:alif@radhitya.org"><code>alif@radhitya.org</code></a></p>
+            <p>Blog: <a href="https://radhitya.org">radhitya.org</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/alifradhitya/">Alif Radhitya Wardana</a></p>
+            <p>Github: <a href="https://github.com/radh1tya">radh1tya</a></p>
         </div>
     </div>
 </body>
